@@ -104,7 +104,7 @@ class IOSSettingsTileState extends State<IOSSettingsTile> {
     return Container(
       width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.only(
-        left: 18,
+        left: 6,
         right: 18,
         top: 8 * scaleFactor,
         bottom: additionalInfo.needToShowDivider ? 24 : 8 * scaleFactor,
